@@ -11,3 +11,6 @@ let excitedString = addExcitementToString(string: addExcitementToString(string: 
 
 // chained together 4 times
 let reallyExcitedString = addExcitementToString(string: addExcitementToString(string: addExcitementToString(string: addExcitementToString(string: "wahoo"))))
+
+// chainged together 6 times
+let reallyReallyExcitedString = addExcitementToString(string: addExcitementToString(string: addExcitementToString(string: addExcitementToString(string: addExcitementToString(string: addExcitementToString(string: "YAHOO"))))))
