@@ -8,27 +8,27 @@ Write two versions of a function called overloadingFun. One version accepts a si
 Hint: See the example function calls to determine how to implement each function.
 
 */
-func overloadingFun(s1: String) /* define return type */ {
-
+func overloadingFun(s1: String) -> String {
+    return "I'm a \(s1) with the value: \(s1)"
 }
 
-func overloadingFun(num: Int) /* define return type */ {
-
+func overloadingFun(num: Int) -> String {
+    return "I'm an \(num) with the value: \(num)"
 }
 
-/* Example Function Call
+// Example Function Call
 
 overloadingFun(s1: "softball") // "I'm a String with the value: softball"
 overloadingFun(num: 12) // "I'm an Int with the value: 12"
 overloadingFun(num: 591) // "I'm an Int with the value: 591"
 overloadingFun(s1: "") // "I'm a String with the value: "
 
-*/
+
 
 //: ### Exercise 2
 //: Write a function `medianAndAverage` that takes three `Int` parameters and returns a tuple with the type `(Int, Double)` where the first value is the median of the input values and the second value is the average of the input values.
-func medianAndAverage(/* define parameters */) /* define return type */ {
-
+func medianAndAverage(num1: Int, num2: Int, num3: Int) -> (Int, Double) {
+    let medianValue = ("num1", "num2", "num3")
 }
 
 /* Example Function Call

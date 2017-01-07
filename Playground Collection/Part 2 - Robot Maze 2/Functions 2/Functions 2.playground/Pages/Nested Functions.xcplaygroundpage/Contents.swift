@@ -11,7 +11,7 @@ func approximateEarnings(hours: Double, wage: Double, roundUp: Bool) -> Int {
         } else {
             return Int(value)
         }
-    }
+}
     
     return round(value: hours, roundUp: roundUp) * round(value: wage, roundUp: roundUp)
 }
