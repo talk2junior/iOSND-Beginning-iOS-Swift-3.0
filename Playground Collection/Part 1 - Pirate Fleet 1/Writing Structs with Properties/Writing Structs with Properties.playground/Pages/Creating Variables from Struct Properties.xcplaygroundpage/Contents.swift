@@ -17,4 +17,5 @@ var collegeAged = ayush.age
 var anotherSchool = ayush.school
 
 ayush.name
+ayush.age
 //: [Next](@next)

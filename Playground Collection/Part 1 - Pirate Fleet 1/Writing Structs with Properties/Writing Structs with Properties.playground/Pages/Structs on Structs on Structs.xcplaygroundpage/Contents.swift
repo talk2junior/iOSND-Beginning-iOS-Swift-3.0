@@ -12,10 +12,7 @@
 struct Song {
     let title: String
     let length: String
-    var artistAge: Int
-    let artistFirstName: String
-    let artistLastName: String
-    let artistHometown: String
+    let artist: Artist
 }
 
 struct Artist {
@@ -25,14 +22,16 @@ struct Artist {
     let hometown: String
 }
 
+//Below shows what we could change the Song struct too to better run the code.
 //struct Song {
 //    let title: String
 //    let length: String
 //    let artist: Artist
 //}
-//
-//let garth = Artist(firstName: "Garth", lastName: "Brooks", age: 53, hometown: "Tulsa, Oklahoma")
-//
-//let thunderRolls = Song(title: "Thunder Rolls", length: "3:42", artist: garth)
-//
-//thunderRolls.artist
+
+let garth = Artist(firstName: "Garth", lastName: "Brooks", age: 53, hometown: "Tulsa, Oklahoma")
+
+let thunderRolls = Song(title: "Thunder Rolls", length: "3:42", artist: garth)
+
+thunderRolls.artist
+
